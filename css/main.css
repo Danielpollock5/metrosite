@@ -370,7 +370,7 @@ footer{
 		width: 100%;
 	}
 }
-@media(max-width: 511px){
+@media(max-width: 511){
 	.sitenav a{
 		padding: 16px 10px;
 	}
@@ -378,6 +378,23 @@ footer{
 @media(max-width: 436px){
 	footer{
 		width: 100%;
+	}
+}
+@media(max-width: 450px){
+	#contact span{
+		font-size: 8px;
+	}
+	.sitenav > :last-child{
+		display: none;
+	}
+	#contact{
+		padding: 0;
+	}
+	#contact i{
+		display: none;
+	}
+	#contact address{
+		text-align: left;
 	}
 }
 
